@@ -8,6 +8,7 @@ import MessageInput from './components/MessageInput';
 import './App.css';
 
 
+
 const socket = io('http://localhost:4000');
 
 function App() {
@@ -93,6 +94,7 @@ function App() {
 
   return (
     <div className="App">
+  
       <div>
         <h1>Chat Application</h1>
         {!isAuthenticated ? (

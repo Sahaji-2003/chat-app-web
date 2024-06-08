@@ -118,7 +118,7 @@ const io = require('socket.io')(server, {
 app.use(cors());
 app.use(express.json());
 
-const User = mongoose.model('User', new mongoose.Schema({
+const User = mongoose.model('UserChat', new mongoose.Schema({
     username: { type: String, unique: true },
     password: String
 }));

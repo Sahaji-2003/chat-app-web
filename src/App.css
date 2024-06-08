@@ -219,13 +219,13 @@ body {
 .me {
   align-self: flex-end;
   background-color: #DCF8C6;
-  height: 20px; /* WhatsApp-like green bubble */
+  
 }
 
 .other {
   align-self: flex-start;
   background-color: #FFFFFF;
-  height: 20px; /* White bubble */
+  height: 20px;
 }
 
 .message strong {
